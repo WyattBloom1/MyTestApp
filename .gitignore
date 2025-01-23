@@ -1,0 +1,4 @@
+my-website/node_modules
+my-website/.editorconfig
+my-website/node_modules/@ampproject/remapping/dist/remapping.mjs
+my-website/.angular
