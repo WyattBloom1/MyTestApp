@@ -27,7 +27,7 @@ export function MSALInstanceFactory(): IPublicClientApplication {
       // Full directory URL, in the form of https://login.microsoftonline.com/<tenant>
       authority: "https://login.microsoftonline.com/30f3a176-3041-4dd8-a764-9241387b9261",
       // Must be the same redirectUri as what was provided in your app registration.
-      redirectUri: "http://localhost:4200",
+      redirectUri: "https://jolly-forest-0efb28e10.4.azurestaticapps.net",
     },
     cache: {
       cacheLocation: BrowserCacheLocation.LocalStorage,
